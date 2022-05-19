@@ -1,0 +1,32 @@
+div{
+    color: rgb(39, 102, 169);
+  }
+
+.row{
+    padding: 20px;
+    margin: 2%;
+    border: 2px solid rgb(39, 102, 169);
+    border-radius: 20px 0px 0px 20px;
+}
+
+.row2{
+  padding: 2%;
+  margin: 0%;
+  border: 2px solid rgb(216, 235, 255);
+  border-radius: 10px 0px 0px 10px;
+  align-items: center;
+}
+
+.img-fluid{
+  width: 200px;
+}
+
+.img-proyecto{
+  border: 2px solid rgb(251, 255, 192);
+  border-radius: 10px;
+}
+
+.proyectospadding{
+  padding: 2%;
+  align-items: center;
+}
