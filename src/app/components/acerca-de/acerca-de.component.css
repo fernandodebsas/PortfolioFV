@@ -1,17 +1,17 @@
 div{
-    color: rgb(39, 102, 169);
+    color: rgb(19, 90, 222);
   }
 
 .row{
     padding: 20px;
     margin: 2%;
-    border: 2px solid rgb(39, 102, 169);
+    border: 2px solid rgb(19, 90, 222);
     border-radius: 20px 0px 0px 20px;
 }
 
 #fotodeperfil{
         position: relative;
         border-radius: 20px 0px 0px 20px;
-        border: 1px solid rgb(39, 102, 169);
+        border: 1px solid rgb(19, 90, 222);
         box-shadow: 3px 3px 3px grey;
     }
