@@ -1,3 +1,10 @@
 img{
     width: 100%;
+    box-shadow: 0px 3px 3px grey;
+    border-top: 3px solid #fafafa;
+    border-bottom: 3px solid #fafafa;
+}
+
+.fluid-container{
+    width: 100%;
 }
