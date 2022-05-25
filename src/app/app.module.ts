@@ -16,6 +16,8 @@ import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
 import { IniciarSesionComponent } from './components/iniciar-sesion/iniciar-sesion.component';
+import { PortfolioComponent } from './components/portfolio/portfolio.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -31,7 +33,8 @@ import { IniciarSesionComponent } from './components/iniciar-sesion/iniciar-sesi
     HardSoftSkillsComponent,
     ProyectosComponent,
     FooterComponent,
-    IniciarSesionComponent
+    IniciarSesionComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,
@@ -47,6 +50,7 @@ import { IniciarSesionComponent } from './components/iniciar-sesion/iniciar-sesi
       animationDuration: 300,
     }),
     HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
