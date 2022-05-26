@@ -15,3 +15,7 @@ div{
         /* border: 2px solid rgb(19, 90, 222); */
         /* box-shadow: 3px 3px 3px grey; */
     }
+
+#mayusculas{
+  text-transform: uppercase;
+}
