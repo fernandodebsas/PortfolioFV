@@ -17,7 +17,7 @@ export class IniciarSesionComponent implements OnInit {
       deviceInfo: this.formBuilder.group({
         deviceId: ['17867868768'],
         deviceType: ['DEVICE_TYPE_ANDROID'],
-        notificationToken: ['67657575eececc34'],
+        notificationToken: ['67657575eececc34']
       }),
     });
   }

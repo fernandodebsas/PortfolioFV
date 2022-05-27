@@ -6,7 +6,7 @@ import { BehaviorSubject, map, Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class AutenticacionService {
-  url="localhost:4200";
+  url="localhost:3306";
   currentUserSubject: BehaviorSubject<any>;
   constructor(private http:HttpClient) {
     console.log("El servicio de autenticación está corriendo");
